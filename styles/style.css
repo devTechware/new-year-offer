@@ -12,14 +12,15 @@ body {
 }
 
 .primary-dimensions {
-  max-width: 1320px;
+  width: 1320px;
+  height: 600;
   margin: 0 auto;
 }
 
+/* Banner Section Styles */
+
 .banner-container {
   /* outline: 5px solid red; */
-  width: 1320px;
-  height: 600px;
   margin-top: 50px;
   border-radius: 16px;
   background: url("../images/Banner\ Image.png");
@@ -91,4 +92,52 @@ body {
   font-weight: bold;
   font-size: 48px;
   margin-bottom: 48px;
+}
+
+/* Midnight Party Greeting Section Styles */
+
+.party-greeting-container {
+  /* outline: 2px solid red; */
+  background-image: url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-size: cover cover; */
+  margin-bottom: 120px;
+}
+
+.party-greeting {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+}
+
+.party-greeting-info {
+  width: 60%;
+  color: white;
+}
+
+.party-greeting-title {
+  font-weight: black;
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+
+.party-greeting-description {
+  font-size: 18px;
+  margin-bottom: 48px;
+}
+
+.party-greeting-btn {
+  background-color: white;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 24px;
+  cursor: pointer;
 }
