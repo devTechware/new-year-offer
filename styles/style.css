@@ -6,6 +6,7 @@
 
 body {
   font-family: "Merriweather", serif;
+  color: #070211;
   margin: 0;
   padding: 0;
 }
@@ -59,4 +60,35 @@ body {
   color: #ffffff;
   font-weight: black;
   text-align: center;
+}
+
+/* Discount Offer Section Styles */
+
+.discount-container {
+  /* outline: 2px solid red; */
+  width: 800px;
+  height: 800px;
+  margin: 120px auto;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.discount-offer {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 88px;
+  margin-bottom: 48px;
+}
+
+.discount-subtitle {
+  color: #ff0000;
+  font-weight: medium;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.discount-categories {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 48px;
 }
