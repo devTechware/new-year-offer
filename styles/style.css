@@ -287,12 +287,43 @@ body {
   position: absolute;
   left: 60px;
   bottom: 120px;
-  width: 50%;  
+  width: 50%;
 }
 
 .img-right {
   position: absolute;
   right: 40px;
   bottom: 380px;
-  height: 25%;  
+  height: 25%;
+}
+
+/* Best Gifts Section */
+
+.best-gifts-container > h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+.best-gifts-container > h3 {
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+.best-gifts-container > p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  max-inline-size: 65%;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+
+.best-gifts-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
 }
