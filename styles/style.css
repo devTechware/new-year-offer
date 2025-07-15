@@ -13,7 +13,7 @@ body {
 
 .primary-dimensions {
   width: 1320px;
-  height: 600px;
+  /* height: 600px; */
   margin: 0 auto;
 }
 
@@ -237,7 +237,7 @@ body {
   margin-bottom: 43px;
 }
 
-/* Holiday Offer Section */
+/* Holiday Offer Section Styles*/
 
 .holiday-offer-container {
   height: 985px;
@@ -297,7 +297,11 @@ body {
   height: 25%;
 }
 
-/* Best Gifts Section */
+/* Best Gifts Section Styles */
+
+.best-gifts-container {
+  margin-bottom: 120px;
+}
 
 .best-gifts-container > h4 {
   font-family: "Inter", sans-serif;
@@ -323,7 +327,76 @@ body {
 }
 
 .best-gifts-images {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px; */
+  display: flex;
+  flex-wrap: wrap;
   gap: 24px;
+}
+
+/* Newsletter Section Styles */
+
+.newsletter-container {
+  margin: 120px auto;
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.05);
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  padding: 88px 175px 72px 250px;
+}
+
+.newsletter > img {
+  margin-bottom: 40px;
+}
+
+.newsletter > h3 {
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.newsletter > p {
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.newsletter-subscription {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter-email {
+  width: 100%;
+  border: none;
+  border-radius: 50px 0 0 50px;
+  font-size: 18px;
+  padding: 25px 30px;
+  max-inline-size: 64%;
+}
+
+.newsletter-email:focus {
+  border: none;
+}
+
+.newsletter-email::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+}
+
+.subscribe-btn {
+  width: 30%;
+  right: 0;
+  background-color: #ff0000;
+  border-radius: 0 50px 50px 0;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 24px 56px;
+  cursor: pointer;
 }
