@@ -13,7 +13,6 @@ body {
 
 .primary-dimensions {
   width: 1320px;
-  /* height: 600px; */
   margin: 0 auto;
 }
 
@@ -89,11 +88,9 @@ body {
 /* Midnight Party Greeting Section Styles */
 
 .party-greeting-container {
-  /* outline: 2px solid red; */
   background-image: url("../images/Vectorrr.png");
   background-repeat: no-repeat;
   background-position: center center;
-  /* background-size: cover cover; */
   margin-bottom: 120px;
 }
 
@@ -327,9 +324,6 @@ body {
 }
 
 .best-gifts-images {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 24px; */
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -399,4 +393,43 @@ body {
   color: #ffffff;
   padding: 24px 56px;
   cursor: pointer;
+}
+
+/* Footer Section Styles */
+
+.footer-container {
+  background-color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 120px 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.contact,
+.copyright {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone-web {
+  margin-right: 135px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.social-icons > img {
+  width: 64px;
+  height: 64px;
 }
